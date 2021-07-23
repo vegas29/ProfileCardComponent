@@ -5,31 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!--Styles-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
   
   <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-  Victor Crest
-  26
-  London
 
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+  <div class="container">
+    <div class="card-container">
+      <div class="card">
+        <div class="card-background">
+          <img src="images/bg-pattern-card.svg" alt="Background Card">
+          <div class="card-photo">
+            <img src="images/image-victor.jpg" alt="Profile Photo">
+          </div>
+        </div>
+        
+        <div class="card-text">
+          <div class="info">
+            <p class="no-margin">Victor Crest</p>
+            <p class="no-margin">26</p>
+          </div>
+  
+          <div class="info-city">
+            <p>London</p>
+          </div>
+  
+          <hr class="line">
+  
+          <div class="card-footer">
+  
+            <div class="card-fitem">
+              <p class="text-center no-margin">80K</p>
+              <p class="text-center no-margin">Followers</p>
+            </div>
+  
+            <div class="card-fitem">
+              <p class="text-center no-margin">803K</p>
+              <p class="text-center no-margin">Likes</p>
+            </div>
+  
+            <div class="card-fitem">
+              <p class="text-center no-margin">1.4K</p>
+              <p class="text-center no-margin">Photos</p>
+            </div>
+                  
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Alejandro Perdomo</a>.
   </div>
 </body>
 </html>
