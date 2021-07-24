@@ -1,0 +1,129 @@
+/*Source*/
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
+
+/* Variables */
+:root{
+    --fuentePrincipal: 'Kumbh Sans', sans-serif;
+    --colorPrimario: hsl(185, 75%, 39%);
+    --colorBlanco: #FFFFFF;
+    --colorGris: #838383;
+    --colorGrisSuave: #cccccc;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+/* Clases auxiliares */
+
+.no-margin{
+    margin:0
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+body{
+    font-family: var(--fuentePrincipal);
+    background-color: var(--colorPrimario);
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-position: left -40vw top -40vw, left 50vw top 50vh;
+    background-repeat: no-repeat;
+    background-size: 80vw 80vw, 80vw 80vw;
+}
+
+.card-container{
+    display: grid;
+    height: 98vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: var(--colorBlanco);
+    border-radius: 16px;
+}
+
+.card-background{
+    position: relative;
+}
+
+.card-background img{
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card-photo img{
+    border-radius: 50%;
+    border: 5px solid white;
+    position: absolute;
+    top: calc(100% - 50px);
+    left: calc(50% - 50px);
+}
+
+.info{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info p{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.info p:nth-child(2){
+    font-weight: 300;
+    margin-left: 1rem;
+}
+
+.info-city{
+    display: grid;
+    justify-content: center;
+    color: var(--colorGris);
+    font-size: .8rem;
+}
+
+.line{
+    border: .1px solid var(--colorGrisSuave);
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-footer .card-fitem{
+    display: block;
+}
+
+.card-fitem{
+    padding: 5px 0 20px 0;
+}
+
+.card-fitem p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.card-fitem p:nth-child(2){
+    margin-top: .5rem;
+    font-weight: 300;
+    font-size: .7rem;
+}
+
+.footer{
+    color: white;
+}
+
+
+
+
