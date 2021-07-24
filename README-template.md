@@ -30,8 +30,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Challenge Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ)
+- Solution URL: [Solution URL](https://github.com/vegas29/ProfileCardComponent)
+- Live Site URL: [Live Site URL](https://vegas29.github.io/ProfileCardComponent/)
 
 ## My process
 
